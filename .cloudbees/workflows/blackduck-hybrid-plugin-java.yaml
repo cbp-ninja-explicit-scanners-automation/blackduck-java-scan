@@ -26,3 +26,4 @@ jobs:
           project-version: 0.0.1
           detect-cli-params: --logging.level.detect=DEBUG --blackduck.offline.mode=false
           ref: main
+
