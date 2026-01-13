@@ -23,7 +23,7 @@ jobs:
           server-url: https://blackduck.saas-preprod.beescloud.com/
           api-token: ${{ secrets.BD_API_TOKEN }}
           project-name: blackduck-java-scan
-          project-version: 0.0.1
+          project-version: 0.0.2
           detect-cli-params: --logging.level.detect=DEBUG --blackduck.offline.mode=false
           ref: main
 
